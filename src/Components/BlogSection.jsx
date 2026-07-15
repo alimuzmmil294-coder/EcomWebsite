@@ -2,10 +2,10 @@ import React from "react";
 import cup from "../assets/cup.avif";
 import honey from "../assets/honey.avif";
 import kettleLeft from "../assets/kettleLeft.avif";
-import LemonMintTea from "../assets/LemonMintTea.avif";
-import LemonSliceClose from "../assets/LemonSliceClose-up.avif";
+import lemonmilttea from '../assets/lemonmilttea.avif'
+import lemonsliceup from '../assets/lemonsliceup.avif'
 import whitecraem from "../assets/whitecraem.avif";
-import Cookie from "../assets/Cookie.avif";
+import cookie from '../assets/cookie.avif'
 import { NavLink } from "react-router-dom";
 
 const BlogSection = () => {
@@ -25,7 +25,7 @@ const BlogSection = () => {
         />
         <img
           className="absolute w-37.5 left-[50%] top-[20%]"
-          src={LemonSliceClose}
+          src={lemonsliceup}
           alt=""
         />
         <img
@@ -35,12 +35,12 @@ const BlogSection = () => {
         />
         <img
           className="absolute w-37.5  right-[8%] top-[50%]"
-          src={LemonMintTea}
+          src={lemonmilttea}
           alt=""
         />
         <img
           className="absolute w-37.5 right-0 top-[70%]"
-          src={Cookie}
+          src={cookie}
           alt=""
         />
         <div className="">
